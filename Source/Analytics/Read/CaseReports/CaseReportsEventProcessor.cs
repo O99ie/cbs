@@ -39,7 +39,7 @@ namespace Read.CaseReports
 
         
         
-       [EventProcessor("cb01aaaf-7998-4692-81ef-1ceb5ab38e12")]
+       [EventProcessor("5c33ee0f-c3ee-7194-f3cb-51c93c91cf7a")]
         public void Process(CaseReportReceived @event)
         {
             // Insert CaseReports
