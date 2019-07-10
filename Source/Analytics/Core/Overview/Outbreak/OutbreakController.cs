@@ -11,7 +11,7 @@ using Microsoft.AspNetCore.Mvc;
 using Read.Overview.Map;
 using Read.Overview.LastWeekTotals;
 using System;
-using Newtonsoft.Json;
+
 
 namespace Core.Overview.OutbreakController
 {
