@@ -12,8 +12,8 @@ namespace Read.Overview.Map
     {
         public CaseReportIdRetrievedId Id { get; set; }
         public HealthRiskName HealthRiskName { get; set; }
-        public IList<CaseReport> CaseReportsLast7Days { get; set; }
-        public IList<CaseReport> CaseReportsLast30Days { get; set; }
+        public IList<CaseReportForMap> CaseReportsLast7Days { get; set; }
+        public IList<CaseReportForMap> CaseReportsLast30Days { get; set; }
     }
 
 }

@@ -8,7 +8,7 @@ using MongoDB.Bson.Serialization.Options;
 
 namespace Read.Overview.Map
 {
-    public class CaseReport 
+    public class CaseReportForMap 
     {
         public CaseReportId CaseReportsId { get; set; }
         public NumberOfPeople NumberOfPeople { get; set; }
