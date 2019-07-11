@@ -1,53 +1,65 @@
 {
+  "26aef839-23a3-4db5-b3f4-75437c6229e9": {
+    "commands": {
+      "1269a8fd-638f-4818-bfa5-4562a2786306": {
+        "generation": 1,
+        "type": "Domain.TestData.CaseReports.PopulateCaseReportTestData, Domain"
+      }
+    },
+    "events": {},
+    "eventSources": {},
+    "readModels": {},
+    "queries": {}
+  },
   "f27726b8-19e6-4efd-bf33-8fe71ea28b15": {
     "commands": {
-      "3758f43d-e6c5-4909-a633-0b782fa2c352": {
+      "6ec477c3-7466-471d-9bf6-11b31000a25d": {
         "generation": 1,
         "type": "Domain.Reporting.AutomaticReplyMessages.DefineAutomaticReplyForProject, Domain"
       },
-      "a68d1665-18ba-4a67-839f-41e37db4a7e5": {
+      "2aa28ddd-a17d-449a-bd3d-65797af76e67": {
         "generation": 1,
         "type": "Domain.Reporting.AutomaticReplyMessages.DefineAutomaticReplyKeyMessageForProject, Domain"
       }
     },
     "events": {
-      "38ed79f5-4563-4f18-beb9-a28238c1b3bf": {
+      "77fb5fa2-59a1-4597-9e30-e66f4ab4a9a6": {
         "generation": 1,
         "type": "Events.Reporting.AutomaticReplyMessages.AutomaticReplyDefined, Events"
       },
-      "6186d085-93aa-4231-8cf7-219b307d96f0": {
+      "f783afa0-313b-43b7-9866-94564daa1a9c": {
         "generation": 1,
         "type": "Events.Reporting.AutomaticReplyMessages.AutomaticReplyKeyMessageDefined, Events"
       },
-      "8121a954-7e68-4bf3-83f1-02aa6fb6b651": {
+      "2c117834-786c-4cef-9823-5aad31268555": {
         "generation": 1,
         "type": "Events.Reporting.AutomaticReplyMessages.AutomaticReplyKeyMessageRemoved, Events"
       },
-      "4825a70e-f5f5-4278-8cbe-426aa4fd27b4": {
+      "28f7f619-d590-462c-8e1b-35ca6c426b8e": {
         "generation": 1,
         "type": "Events.Reporting.AutomaticReplyMessages.AutomaticReplyRemoved, Events"
       }
     },
     "eventSources": {
-      "5ee6bfc1-fb7c-4f9c-ab87-8b1efb964f96": {
+      "8163365b-99ed-478a-baed-b9d119e588f9": {
         "generation": 1,
         "type": "Domain.Reporting.AutomaticReplyMessages.AutomaticReplyDefinition, Domain"
       }
     },
     "readModels": {
-      "e8f8f263-41e0-414a-b0b0-590cd78aafef": {
+      "597f3e21-14ea-4e55-8677-f89257c19b55": {
         "generation": 1,
         "type": "Read.Reporting.AutomaticReplyMessages.AutomaticReply, Read"
       },
-      "a93330e2-3ba3-4b23-a6db-b5616f850ba2": {
+      "40197b67-95f1-49e9-a66c-cea01037f3ae": {
         "generation": 1,
         "type": "Read.Reporting.AutomaticReplyMessages.AutomaticReplyKeyMessage, Read"
       },
-      "060fb1b3-5b3a-4b17-a21e-9bb0ff72c3be": {
+      "87757927-ecf0-4066-9bbc-971243aa6c14": {
         "generation": 1,
         "type": "Read.Reporting.AutomaticReplyMessages.DefaultAutomaticReply, Read"
       },
-      "04728694-b94e-4293-b1e6-507a71fb8667": {
+      "32df17de-be4b-4314-b467-f0be602ad23d": {
         "generation": 1,
         "type": "Read.Reporting.AutomaticReplyMessages.DefaultAutomaticReplyKeyMessage, Read"
       }
@@ -56,21 +68,21 @@
   },
   "d4495ad1-3e03-427a-aa01-13c8ab469fc8": {
     "commands": {
-      "9e4fb540-61a1-4e51-b34f-04cb4dae769d": {
+      "90702e57-dc9e-4166-a35f-47ccadcddaa8": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.Training.BeginTraining, Domain"
       },
-      "935ee4cc-5190-43f5-84e7-efd12fc977e3": {
+      "71a3cd1d-49c0-48fe-a4a4-8984998994d6": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.Training.EndTraining, Domain"
       }
     },
     "events": {
-      "a73348f5-45ab-4913-8a6f-5947b44d6944": {
+      "71232250-48a3-4137-b7c2-39a1a499cd82": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.Training.DataCollectorBeganTraining, Events"
       },
-      "950cef1b-5e9f-44e3-b410-67749573eda7": {
+      "d9211a77-fdd9-41a3-a540-594538daf32c": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.Training.DataCollectorCompletedTraining, Events"
       }
@@ -81,21 +93,21 @@
   },
   "a9c9c5a6-d18b-46ce-b14e-f5203ed5e543": {
     "commands": {
-      "e03b2594-6887-47ca-b6e7-f07369819425": {
+      "b124e3cb-6302-4611-8bf3-a9f583cd5337": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.Registration.DeleteDataCollector, Domain"
       },
-      "865328db-d000-496f-8809-5cb4f6943ece": {
+      "8cb965ba-0815-4a06-b706-201584f22e7d": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.Registration.RegisterDataCollector, Domain"
       }
     },
     "events": {
-      "899f24ac-860d-4dae-ae90-938ac12e5226": {
+      "eec80c75-89e8-4e90-9b94-29f8226c77cd": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.Registration.DataCollectorRegistered, Events"
       },
-      "7290842e-7803-42ba-97d2-40f4c427528f": {
+      "b52b17aa-cdd2-48a9-aadd-1779ff441843": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.Registration.DataCollectorRemoved, Events"
       }
@@ -106,61 +118,61 @@
   },
   "ead01ce5-ec3e-41be-be9b-447bf549bef2": {
     "commands": {
-      "c66948fa-d317-4898-9578-9f2f73f3e185": {
+      "f482fb6f-05a1-419f-9ef5-45542f3e534c": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.EditInformation.AddPhoneNumberToDataCollector, Domain"
       },
-      "8a33497e-3c61-4fd5-a4ce-dcfe5dfea561": {
+      "7b40c49b-fcbf-498b-b579-7e08674d9e5d": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.EditInformation.ChangeBaseInformation, Domain"
       },
-      "79900945-6b13-4635-8715-6f4149de1bf0": {
+      "2a23549e-6671-4005-aaf1-e42f4e577f9c": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.EditInformation.ChangeDataVerifier, Domain"
       },
-      "ddb6c85d-affb-4a4f-9ec4-a6df217ac538": {
+      "25ef0b5c-d7d7-4ece-9d66-4b5b30e41abe": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.EditInformation.ChangeLocation, Domain"
       },
-      "18504540-45e7-44b7-abf1-b7211e3c5ca6": {
+      "209c4178-0eec-4909-98f0-2cf8da95ebf3": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.EditInformation.ChangePreferredLanguage, Domain"
       },
-      "3b231dcf-bc1b-4d54-9c75-f4ade21a5bd6": {
+      "f33fa095-8037-43c9-9459-722426073c67": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.EditInformation.ChangeVillage, Domain"
       },
-      "038cbc64-8847-4b07-a327-2662eb7cc0b6": {
+      "183cc04d-215e-4d5d-b436-e4b39a5c5747": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.EditInformation.RemovePhoneNumberFromDataCollector, Domain"
       }
     },
     "events": {
-      "fe3814b9-f5c4-4e82-a4df-d616a74ffe1e": {
+      "bc9f8eea-ef2f-4512-997a-5afdc3f3ae64": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.EditInformation.DataCollectorDataVerifierChanged, Events"
       },
-      "94bb05c5-93f0-46e9-9626-8676db67bf1d": {
+      "e07a1636-52c6-41ef-8021-d28d910f5a22": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.EditInformation.DataCollectorLocationChanged, Events"
       },
-      "4d8b31cb-4e9c-4cfb-af25-27d1bc98b900": {
+      "b7f5a4e3-6ed8-4267-940f-d24674e101f9": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.EditInformation.DataCollectorPreferredLanguageChanged, Events"
       },
-      "2a2c6d46-0bec-4eca-b221-a0ed4ecb8962": {
+      "18ea37c8-d462-4e2d-acb0-6f133b19b316": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.EditInformation.DataCollectorUserInformationChanged, Events"
       },
-      "5764eae6-fc2e-4c46-a6d7-fd6c978499fc": {
+      "b2df4211-9258-4d40-941d-d64f1521f8ee": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.EditInformation.DataCollectorVillageChanged, Events"
       },
-      "02588e01-92d9-4009-90d3-121bafbf4ee8": {
+      "01465a69-8206-44e4-b9d1-a8f1180f61d1": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.EditInformation.PhoneNumberAddedToDataCollector, Events"
       },
-      "a2238720-e134-462b-89aa-824066bb8000": {
+      "083634f5-db21-4240-9f98-68c92e82c32d": {
         "generation": 1,
         "type": "Events.Management.DataCollectors.EditInformation.PhoneNumberRemovedFromDataCollector, Events"
       }
@@ -172,11 +184,11 @@
   "2b37f877-532e-4e35-ba76-1977d56739ac": {
     "commands": {},
     "events": {
-      "525ec773-014e-44dd-a215-20af627bfde6": {
+      "7c7e57ee-fbef-4cbb-a261-1b2344c1423f": {
         "generation": 1,
         "type": "Events.Reporting.CaseReports.CaseReportFromUnknownDataCollectorReceived, Events"
       },
-      "9e90428f-c9d1-4419-88e9-acb2c268add8": {
+      "ce6af3db-8715-4854-971f-571371d05f13": {
         "generation": 1,
         "type": "Events.Reporting.CaseReports.CaseReportIdentified, Events"
       },
@@ -184,27 +196,27 @@
         "generation": 1,
         "type": "Events.Reporting.CaseReports.CaseReportReceived, Events"
       },
-      "db3c168f-faa7-4d61-aa2e-f0c9f23184fb": {
+      "e7bb5175-167f-401f-a650-a316cd674f9a": {
         "generation": 1,
         "type": "Events.Reporting.CaseReports.InvalidReportFromUnknownDataCollectorReceived, Events"
       },
-      "02feb265-8444-4d97-9b18-a066172c6d47": {
+      "264e06e4-ad75-455f-976d-d3fdeb80befa": {
         "generation": 1,
         "type": "Events.Reporting.CaseReports.InvalidReportReceived, Events"
       }
     },
     "eventSources": {
-      "dbe9cbec-5715-41fe-b9f5-3f8304441b9f": {
+      "21b1ba99-5daf-4018-ba0b-f54f9386d5a0": {
         "generation": 1,
         "type": "Domain.Reporting.CaseReports.CaseReporting, Domain"
       }
     },
     "readModels": {
-      "c416cbb9-ec8f-4acf-ba18-bd1559f9da8f": {
+      "e217fe6b-8139-425b-8220-14296fd6940d": {
         "generation": 1,
         "type": "Read.Reporting.CaseReports.CaseReport, Read"
       },
-      "34b0dcca-cfca-4c7a-8b7e-9334af2a3091": {
+      "427ba081-4bad-4dc5-a3da-bbe95b5b6fa7": {
         "generation": 1,
         "type": "Read.Reporting.CaseReports.CaseReportFromUnknownDataCollector, Read"
       }
@@ -214,7 +226,7 @@
   "96c4f3b8-9655-483e-bf94-0a2542383049": {
     "commands": {},
     "events": {
-      "39777f4c-79da-4895-854e-5e2d37416b18": {
+      "48151b2d-9292-4979-aba8-ab92e98aa857": {
         "generation": 1,
         "type": "Events.Management.MessageGenerators.MessageGenerated, Events"
       }
@@ -237,7 +249,7 @@
     },
     "eventSources": {},
     "readModels": {
-      "213cec9b-aebf-4404-8dcd-26c88b5a4c5c": {
+      "1836d03a-bc68-4a75-bcce-1a9374d57531": {
         "generation": 1,
         "type": "Read.Reporting.Projects.Project, Read"
       }
@@ -262,17 +274,17 @@
     },
     "eventSources": {},
     "readModels": {
-      "b2f129a2-038d-4802-9d40-3365380f60ae": {
+      "0cbc9230-b6c8-4c2e-b0eb-9924d1f37010": {
         "generation": 1,
         "type": "Read.Reporting.HealthRisks.HealthRisk, Read"
       }
     },
     "queries": {
-      "8e501000-448e-4372-96ae-0147040a72f1": {
+      "36a2bb7a-5f6f-49a2-a4d9-c05531256c87": {
         "generation": 1,
         "type": "Read.Reporting.HealthRisks.AllHealthRisks, Read"
       },
-      "0dd1cbce-c521-4655-9eda-896d5fd88bac": {
+      "eae24498-9247-4bac-b1c2-d66c6da7976e": {
         "generation": 1,
         "type": "Read.Reporting.HealthRisks.HealthRiskById, Read"
       }
@@ -281,11 +293,11 @@
   "309f0e90-7d1c-48e4-811d-aab2a2aeef48": {
     "commands": {},
     "events": {
-      "c04bb2ce-8d4e-4828-a423-96315a7392fd": {
+      "f5c6f349-fcbb-43a3-a808-c64c12730442": {
         "generation": 1,
         "type": "Events.Admin.Reporting.DefaultReplyMessages.DefaultAutomaticReplyDefined, Events.Admin"
       },
-      "1b775244-6866-4ff7-aed8-cc7eefce53a5": {
+      "60e77b76-1ace-4d95-b1b3-25abed621130": {
         "generation": 1,
         "type": "Events.Admin.Reporting.DefaultReplyMessages.DefaultAutomaticReplyKeyMessageDefined, Events.Admin"
       }
@@ -306,27 +318,39 @@
     "readModels": {},
     "queries": {}
   },
+  "40cd66d3-d1ff-48d2-876e-616272971afb": {
+    "commands": {},
+    "events": {},
+    "eventSources": {
+      "d48e51ef-ea3f-42d2-a0fc-b76af2f392b1": {
+        "generation": 1,
+        "type": "Domain.TestData.HealthRisks.HealtRisk, Domain"
+      }
+    },
+    "readModels": {},
+    "queries": {}
+  },
   "c9da8008-c368-4c72-8b97-5822c286d9dd": {
     "commands": {},
     "events": {},
     "eventSources": {
-      "9aa60837-a692-4c9f-8d68-7dd569d5b230": {
+      "b29cde38-2576-4b40-abdf-2ae225ca0a40": {
         "generation": 1,
         "type": "Domain.Management.DataCollectors.DataCollector, Domain"
       }
     },
     "readModels": {
-      "d46b3ba2-fab9-4f4d-9afe-0e98bbe3935f": {
+      "2985c11e-1b80-4741-8f25-22864a3e9f6d": {
         "generation": 1,
         "type": "Read.Management.DataCollectors.DataCollector, Read"
       }
     },
     "queries": {
-      "32d19823-b392-4755-9f16-43777528f6d4": {
+      "053f3e84-19ca-4194-8c61-5e3c59bf2332": {
         "generation": 1,
         "type": "Read.Management.DataCollectors.AllDataCollectors, Read"
       },
-      "a46d4ddf-a47f-4e48-b34e-7f55d368f27d": {
+      "aa8feb1b-f945-4785-a322-3fb06fc6da7e": {
         "generation": 1,
         "type": "Read.Management.DataCollectors.DataCollectorById, Read"
       }
@@ -337,11 +361,11 @@
     "events": {},
     "eventSources": {},
     "readModels": {
-      "cac9631a-f2bd-40d2-bf1d-834f0186798c": {
+      "ee2a7e9f-11eb-4965-9a60-954845cb411d": {
         "generation": 1,
         "type": "Read.Reporting.InvalidCaseReports.InvalidCaseReport, Read"
       },
-      "2b612281-b3a7-4d7f-8b84-537b4aa749cf": {
+      "eab1b4d8-09df-4945-9e95-348658f695d8": {
         "generation": 1,
         "type": "Read.Reporting.InvalidCaseReports.InvalidCaseReportFromUnknownDataCollector, Read"
       }
@@ -353,17 +377,17 @@
     "events": {},
     "eventSources": {},
     "readModels": {
-      "dd9a5695-a361-4475-abeb-34e1789239a0": {
+      "c807e9b3-cede-4368-8e35-3b94305ddd59": {
         "generation": 1,
         "type": "Read.Reporting.DataCollectors.ListedDataCollector, Read"
       }
     },
     "queries": {
-      "7348005f-fbea-4bb0-b468-90ec6be75284": {
+      "9195d287-6037-4a5c-9415-39999314fd56": {
         "generation": 1,
         "type": "Read.Reporting.DataCollectors.AllListedDataCollectors, Read"
       },
-      "5422372c-8c4f-402c-b274-567cfe4eaa66": {
+      "eefb25cf-ab9e-48f7-90e3-a6f956e8a826": {
         "generation": 1,
         "type": "Read.Reporting.DataCollectors.ListedDataCollectorById, Read"
       }
@@ -374,17 +398,17 @@
     "events": {},
     "eventSources": {},
     "readModels": {
-      "e3f2ec11-da5e-4a70-a1d8-9cb843890394": {
+      "d374a282-81f1-4695-aad8-c45363a61ad6": {
         "generation": 1,
         "type": "Read.Reporting.CaseReportsForListing.CaseReportForListing, Read"
       }
     },
     "queries": {
-      "2dbfd2ed-a045-4540-aa61-5f992da429db": {
+      "6c2c298d-0bac-4236-a127-6f2c55ae2056": {
         "generation": 1,
         "type": "Read.Reporting.CaseReportsForListing.AllCaseReportsForListing, Read"
       },
-      "a0a58fab-2790-464d-897c-79528b7883cb": {
+      "7efb30cf-8168-4cb3-84d0-a4bb505afb69": {
         "generation": 1,
         "type": "Read.Reporting.CaseReportsForListing.CaseReportForListingById, Read"
       }
@@ -395,35 +419,11 @@
     "events": {},
     "eventSources": {},
     "readModels": {
-      "244cc026-7103-48a6-a1df-25104e12f778": {
+      "82455470-991a-4df4-b4be-967843b55b48": {
         "generation": 1,
         "type": "Read.Management.DataVerifiers.DataVerifier, Read"
       }
     },
-    "queries": {}
-  },
-  "40cd66d3-d1ff-48d2-876e-616272971afb": {
-    "commands": {},
-    "events": {},
-    "eventSources": {
-      "15331073-ecc5-4af7-844d-7175932395f0": {
-        "generation": 1,
-        "type": "Domain.TestData.HealthRisks.HealtRisk, Domain"
-      }
-    },
-    "readModels": {},
-    "queries": {}
-  },
-  "26aef839-23a3-4db5-b3f4-75437c6229e9": {
-    "commands": {
-      "79c674e6-6f04-476a-8608-1ddfcde8f702": {
-        "generation": 1,
-        "type": "Domain.TestData.CaseReports.PopulateCaseReportTestData, Domain"
-      }
-    },
-    "events": {},
-    "eventSources": {},
-    "readModels": {},
     "queries": {}
   }
 }

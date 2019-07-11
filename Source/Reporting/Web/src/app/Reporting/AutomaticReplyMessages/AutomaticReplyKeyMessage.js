@@ -9,7 +9,7 @@ export class AutomaticReplyKeyMessage extends ReadModel
     constructor() {
         super();
         this.artifact = {
-           id: 'a93330e2-3ba3-4b23-a6db-b5616f850ba2',
+           id: '40197b67-95f1-49e9-a66c-cea01037f3ae',
            generation: '1'
         };
         this.id = '00000000-0000-0000-0000-000000000000';

@@ -44,14 +44,17 @@
   <ItemGroup>
     <ProjectReference Include="..\Concepts\Concepts.csproj" />
     <ProjectReference Include="..\Domain\Domain.csproj" />
+     <ProjectReference Include="..\Domain.Specs\Domain.Specs.csproj" />
     <ProjectReference Include="..\Events\Events.csproj" />
     <ProjectReference Include="..\Events.Admin\Events.Admin.csproj" />
     <ProjectReference Include="..\Events.NotificationGateway\Events.NotificationGateway.csproj" />
     <ProjectReference Include="..\Read\Read.csproj" />
+    <ProjectReference Include="..\Read.Specs\Read.Specs.csproj" />
     <ProjectReference Include="..\Policies\Policies.csproj" />
     <ProjectReference Include="..\Rules\Rules.csproj" />
-  </ItemGroup>
+    <ProjectReference Include="..\Rules.Specs\Rules.Specs.csproj" />
 
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="EPPlus" Version="4.5.3.1" />
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.5" />

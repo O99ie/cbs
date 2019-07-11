@@ -9,7 +9,7 @@ export class CaseReportForListing extends ReadModel
     constructor() {
         super();
         this.artifact = {
-           id: 'e3f2ec11-da5e-4a70-a1d8-9cb843890394',
+           id: 'd374a282-81f1-4695-aad8-c45363a61ad6',
            generation: '1'
         };
         this.id = '00000000-0000-0000-0000-000000000000';
