@@ -19,6 +19,7 @@ var firefoxIcon = L.icon({
 
 
 function CaseMarkers({casesLastWeekAndMonth}){
+    console.log(casesLastWeekAndMonth);
     return casesLastWeekAndMonth.map(cases => {
         cases.vals = new Array(cases.numberOfPeople.value);
         cases.vals.fill(1);
@@ -63,7 +64,8 @@ class MapWidget extends Component {
 
     fetchData() {
         this.url = `${BASE_URL}CaseReport/Outbreak/Outbreaks`;
-
+        
+        console.log(this.url);
         this.setState({ isLoading: true });
         
         getJson(this.url)
@@ -77,7 +79,7 @@ class MapWidget extends Component {
                 
             )
             .catch(_ => this.setState({ isLoading: false, isError: true }));
-
+        console.log(this.state.casesLastWeekAndMonth);
     } 
 
     render() {
@@ -116,7 +118,7 @@ class MapWidget extends Component {
                 />
 
                 <MarkerClusterGroup>
-                    <CaseMarkers casesLastWeek={this.state.casesLastWeek}></CaseMarkers>
+                    <CaseMarkers casesLastWeekAndMonth={this.state.casesLastWeekAndMonth}></CaseMarkers>
                 </MarkerClusterGroup>
             </Map>
         );
